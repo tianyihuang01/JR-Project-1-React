@@ -91,3 +91,6 @@ const BlogPage = () => (
         </div>
     </section>
 )
+
+
+export default BlogPage;

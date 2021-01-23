@@ -76,3 +76,5 @@ const ServicesPage = () => (
         </div>
     </section>
 )
+
+export default ServicesPage;

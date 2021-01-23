@@ -39,3 +39,5 @@ const HomePage = () => (
         </div>
     </section>
 )
+
+export default HomePage;

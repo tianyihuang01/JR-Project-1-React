@@ -122,3 +122,5 @@ const ResumePage = () => (
         </div>
     </section>
 )
+
+export default ResumePage;

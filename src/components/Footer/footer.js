@@ -4,3 +4,5 @@ const Footer = () => (
         <a href="http://jiangren.com.au" className="theme--color"> Tianyi Huang</a> 
     </footer>    
 )
+
+export default Footer;
