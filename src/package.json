@@ -2,7 +2,8 @@
   "name": "src",
   "private": true,
   "scripts": {
-    "build": "webpack --config ./webpack.config.js"
+    "build": "webpack --config ./webpack.config.js",
+    "start:dev": "webpack serve"
   },
   "dependencies": {
     "@babel/core": "^7.12.10",
@@ -14,7 +15,8 @@
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^4.5.1",
     "style-loader": "^2.0.0",
-    "webpack": "^5.17.0"
+    "webpack": "^5.17.0",
+    "webpack-dev-server": "^3.11.2"
   },
   "devDependencies": {
     "webpack-cli": "^4.4.0"
