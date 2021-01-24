@@ -1,6 +1,6 @@
 function main(){
     var pervious = '';
-    var current = 'home';
+    var current = 'resume';
 
     switchPage();
     switchNav();
