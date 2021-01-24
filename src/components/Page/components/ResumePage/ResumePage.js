@@ -1,11 +1,11 @@
-import ResumeTitle from "./components/ResumeTitle/ResumeTitle";
+import Page from "../../Page";
 import EduExp from "./components/EduExp/EduExp";
 import Skills from "./components/Skills/Skills";
 
 const ResumePage = () => (
   <section>
     <div id="resume" className="card">
-      <ResumeTitle />
+      <Page foo="Resume" />
 
       <div className="card-body">
         <div className="row profile__content">

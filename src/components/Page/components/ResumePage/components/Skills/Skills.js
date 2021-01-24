@@ -4,7 +4,7 @@ const Skills = ({ foo }) => (
   <div className="col-lg-6 col-md-6 col-sm-12">
     <h3 className="resume__title">
       {foo}
-      <span className="theme--color"> Skills</span>
+      <span className="theme--color">&nbsp;Skills</span>
     </h3>
     <div>
       {(() => {
