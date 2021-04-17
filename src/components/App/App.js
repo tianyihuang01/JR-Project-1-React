@@ -10,35 +10,73 @@ import ContactPage from "../Page/components/ContactPage/ContactPage";
 import Footer from "../Footer/footer";
 import { PAGE } from "../../constants";
 
-let currentPage = PAGE.HOME;
+class App extends React.Component {
+	constructor(props) {
+		super(props);
 
-const obj = {
-	currentPage: PAGE.HOME
-};
+		this.state = {
+			currentPage: PAGE.HOME,
+		};
 
-const App = ({render,}) => {
-
-	const changePage = (pageName) => {
-		console.log('changePage');
-		obj.currentPage = pageName;
-		render();
+		this.changePage = this.changePage.bind(this);
 	}
 
-	return (
-		<div>
-			<header>
-				<Header currentPage={obj.currentPage} changePage={changePage}></Header>
-			</header>
-			<main>
-				<HomePage active={obj.currentPage == PAGE.HOME} />
-				<ResumePage active={obj.currentPage == PAGE.RESUME} />
-				<ServicesPage active={obj.currentPage == PAGE.SERVICES} />
-				<BlogPage active={obj.currentPage == PAGE.BLOG} />
-				<ContactPage active={obj.currentPage == PAGE.CONTACT} />
-			</main>
-			<Footer />
-		</div>
-	);
+	changePage(pageName) {
+		this.setState({
+			currentPage: pageName,
+		});
+	}
+
+	render() {
+		const { currentPage } = this.state;
+
+		return (
+			<div>
+				<header>
+					<Header currentPage={currentPage} changePage={this.changePage}></Header>
+				</header>
+				<main>
+					<HomePage active={currentPage == PAGE.HOME} />
+					<ResumePage active={currentPage == PAGE.RESUME} />
+					<ServicesPage active={currentPage == PAGE.SERVICES} />
+					<BlogPage active={currentPage == PAGE.BLOG} />
+					<ContactPage active={currentPage == PAGE.CONTACT} />
+				</main>
+				<Footer />
+			</div>
+		);
+	}
+}
+
+// let currentPage = PAGE.HOME;
+
+const obj = {
+	currentPage: PAGE.HOME,
 };
+
+// const App = ({render,}) => {
+
+// 	const changePage = (pageName) => {
+// 		console.log('changePage');
+// 		obj.currentPage = pageName;
+// 		render();
+// 	}
+
+// 	return (
+// 		<div>
+// 			<header>
+// 				<Header currentPage={obj.currentPage} changePage={changePage}></Header>
+// 			</header>
+// 			<main>
+// 				<HomePage active={obj.currentPage == PAGE.HOME} />
+// 				<ResumePage active={obj.currentPage == PAGE.RESUME} />
+// 				<ServicesPage active={obj.currentPage == PAGE.SERVICES} />
+// 				<BlogPage active={obj.currentPage == PAGE.BLOG} />
+// 				<ContactPage active={obj.currentPage == PAGE.CONTACT} />
+// 			</main>
+// 			<Footer />
+// 		</div>
+// 	);
+// };
 
 export default App;
