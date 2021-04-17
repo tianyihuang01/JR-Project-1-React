@@ -1,21 +1,18 @@
-import Page from "../../Page";
 import GetInTouch from "./components/GetInTouch/GetInTouch";
 import ContactForm from "./components/ContactForm/ContactForm";
+import PageTitle from "../PageTitle/PageTitle";
+import Page from "../../Page";
 
-
-
-const ContactPage = () => (
-  <section>
-    <div id="contact" className="card">
-      <Page foo="Contact" />
-      <div className="card-body profile__content">
-        <div className="row">
-          <GetInTouch />
-          <ContactForm />
-        </div>
-      </div>
-    </div>
-  </section>
+const ContactPage = ({ active }) => (
+	<Page id="contact" active={active}>
+		<PageTitle foo="Contact" />
+		<div className="card-body profile__content">
+			<div className="row">
+				<GetInTouch />
+				<ContactForm />
+			</div>
+		</div>
+	</Page>
 );
 
 export default ContactPage;

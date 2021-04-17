@@ -1,6 +1,6 @@
 import NavList from "./components/NavList/NavList";
 
-const Header = () => (
+const Header = ({currentPage, changePage}) => (
   <nav
     className="navbar fixed-top navbar-expand-sm bg-light navbar-light"
     id="mainNav"
@@ -24,7 +24,7 @@ const Header = () => (
         className="collapse navbar-collapse align-items-center"
         id="navbarResponsive"
       >
-        <NavList />
+        <NavList currentPage={currentPage} changePage={changePage}/>
       </div>
     </div>
   </nav>

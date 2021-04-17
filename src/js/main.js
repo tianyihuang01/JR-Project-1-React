@@ -1,9 +1,9 @@
 function main(){
     var pervious = '';
-    var current = 'contact';
+    var current = 'home';
 
-    switchPage();
-    switchNav();
+    // switchPage();
+    // switchNav();
 
     document.querySelectorAll('.nav-link')
         .forEach(function(element) {
@@ -21,7 +21,7 @@ function main(){
         pervious = current;
         current = to;
 
-        switchPage();
+        // switchPage();
         switchNav();
     }
 
@@ -60,7 +60,7 @@ function main(){
     }
 }
 
-main();
+// main();
 
 // window.addEventListener("load", function(){
 //     var skill = document.querySelector(".skill");

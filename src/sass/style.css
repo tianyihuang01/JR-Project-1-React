@@ -26,17 +26,17 @@ body {
 }
 .nav-link::after {
   content: "";
-  border: solid #f8f9fa 1px;
+  border: solid #f8f9fa 0.5px;
   width: 24px;
   margin: auto;
   display: block;
 }
 .nav-link:hover::after {
-  border: solid rgba(11, 58, 102, 0.75) 1px;
+  border: solid rgba(11, 58, 102, 0.75) 0.5px;
   transition: 1s;
 }
 .nav--active::after {
-  border: solid rgba(11, 58, 102, 0.75) 1px;
+  border: solid rgba(11, 58, 102, 0.75) 0.5px;
 }
 
 .card {
