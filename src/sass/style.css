@@ -370,11 +370,6 @@ body {
 .btn--text {
   font-size: 15px;
 }
-.btn--round {
-  border-radius: 50px;
-  width: 35px;
-  height: 35px;
-}
 
 dl {
   width: 100%;
