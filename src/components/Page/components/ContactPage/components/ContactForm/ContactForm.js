@@ -1,6 +1,8 @@
 import React from "react";
 // import ReactDOM from "react-dom";
 import {faUser, faEnvelope, faComment} from "@fortawesome/free-solid-svg-icons"
+// import { loadReCaptcha } from "react-recaptcha-google";
+import ReCAPTCHA from "react-google-recaptcha";
 
 import FormItem from "../FormItem/FormItem";
 
@@ -37,10 +39,13 @@ const ContactForm = () => (
 			/>
 
 			<br />
-			<div
+			{/* <div
 				className="g-recaptcha brochure__form__captcha"
 				data-sitekey="6LfULykaAAAAAFTB505w9yfsOVDVuULltLLUlv1C"
-			></div>
+			></div> */}
+			<ReCAPTCHA
+				sitekey="6LfULykaAAAAAFTB505w9yfsOVDVuULltLLUlv1C"
+			/>
 
 			<button type="submit" className="btn btn-custom mb-2">
 				<span className="btn--text">SEND MESSAGE</span>
