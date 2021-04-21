@@ -11,7 +11,7 @@ const BlogContent = () => (
         </div>
       </div>
       <div className="blog__card--label text-center">
-        <span className="theme--color day">16</span>
+        <div className="theme--color day">16</div>
         <span className="theme--color month">Nov</span>
       </div>
       <div className="blog__card--body text-center">
