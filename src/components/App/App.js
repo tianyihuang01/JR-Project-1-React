@@ -15,7 +15,7 @@ class App extends React.Component {
 		super(props);
 
 		this.state = {
-			currentPage: PAGE.HOME,
+			currentPage: PAGE.CONTACT,
 		};
 
 		this.changePage = this.changePage.bind(this);

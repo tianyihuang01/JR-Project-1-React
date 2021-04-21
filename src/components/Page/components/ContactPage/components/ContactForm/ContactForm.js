@@ -1,5 +1,6 @@
 import React from "react";
 // import ReactDOM from "react-dom";
+import {faUser, faEnvelope, faComment} from "@fortawesome/free-solid-svg-icons"
 
 import FormItem from "../FormItem/FormItem";
 
@@ -14,7 +15,7 @@ const ContactForm = () => (
 			<FormItem
 				id="inlineFormInputName2"
 				desc="Full Name"
-				fa="user"
+				fa={faUser}
 				pattern=""
 				invalid="please provide your full name."
 			/>
@@ -22,7 +23,7 @@ const ContactForm = () => (
 			<FormItem
 				id="inlineFormInputEmail2"
 				desc="Email Address"
-				fa="user"
+				fa={faEnvelope}
 				pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
 				invalid="please provide your valid Email address."
 			/>
@@ -30,7 +31,7 @@ const ContactForm = () => (
 			<FormItem
 				id="inlineFormInputMessage2"
 				desc="Message for me"
-				fa="comment"
+				fa={faComment}
 				pattern=""
 				invalid="please provide your feedback."
 			/>

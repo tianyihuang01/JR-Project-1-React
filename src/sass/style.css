@@ -100,6 +100,7 @@ body {
   width: 32px;
   height: 32px;
   padding-left: 6px;
+  padding-top: 4px;
 }
 .profile__media--fb {
   padding-left: 10px;
@@ -368,6 +369,11 @@ body {
 }
 .btn--text {
   font-size: 15px;
+}
+.btn--round {
+  border-radius: 50px;
+  width: 35px;
+  height: 35px;
 }
 
 dl {

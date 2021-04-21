@@ -129,6 +129,7 @@ body{
         width: 32px;
         height: 32px;
         padding-left: 6px;
+        padding-top: 4px;
         // padding-top: -px;
         // margin-left: auto;
         // margin-right: auto;
@@ -468,6 +469,11 @@ body{
     }
     &--text{
         font-size: 15px;
+    }
+    &--round{
+        border-radius: 50px;
+        width: 35px;
+        height: 35px;
     }
 }
 

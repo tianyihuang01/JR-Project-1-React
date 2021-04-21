@@ -1,5 +1,7 @@
 import React from "react";
 // import ReactDOM from "react-dom";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMapMarkerAlt, faEnvelope, faPhone, faCheck } from "@fortawesome/free-solid-svg-icons";
 
 import GoogleMap from "../GoogleMap/GoogleMap";
 import ContactItem from "../ContactItem/ContactItem";
@@ -19,13 +21,13 @@ const GetInTouch = () => (
 			items={[
 				{
 					key: "contact-city",
-					fa: "map-marker",
+					fa: faMapMarkerAlt,
 					media: "--fb",
 					desc: "Melbourne, Australia",
 				},
 				{
 					key: "contact-email",
-					fa: "envelope",
+					fa: faEnvelope,
 					media: "",
 					desc: (
 						<a href="mailto:email@example.com" className="theme--color">
@@ -35,18 +37,19 @@ const GetInTouch = () => (
 				},
 				{
 					key: "contact-phone",
-					fa: "phone",
+					fa: faPhone,
 					media: "",
 					desc: "+0123 123 456 789",
 				},
 				{
 					key: "contact-option",
-					fa: "check",
+					fa: faCheck,
 					media: "",
 					desc: "Freelance Available",
 				},
 			]}
 		/>
+
 	</div>
 );
 

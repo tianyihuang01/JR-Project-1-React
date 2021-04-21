@@ -1,5 +1,7 @@
 import React from "react";
 // import ReactDOM from "react-dom";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebookF, faTwitter,  faInstagram} from "@fortawesome/free-brands-svg-icons";
 
 import ProfileMedia from "../ProfileMedia/ProfileMedia";
 
@@ -7,9 +9,9 @@ const ProfileTitle = () => (
 	<div className="card-img-overlay text-white text-center" id="home__overlay">
 		<h2 className="card-title profile__name">Tianyi Huang</h2>
 		<p className="card-text profile__title">Web Designer</p>
-		<ProfileMedia foo="fa-twitter profile__media" />
-		<ProfileMedia foo="fa-facebook profile__media--fb" />
-		<ProfileMedia foo="fa-instagram profile__media--tw" />
+		<ProfileMedia foo="profile__media--fb" bar={faFacebookF} />
+		<ProfileMedia foo="profile__media--tw" bar={faTwitter} />
+		<ProfileMedia foo="profile__media--tw" bar={faInstagram} />
 	</div>
 );
 

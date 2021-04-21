@@ -1,5 +1,6 @@
 import React from "react";
 // import ReactDOM from "react-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const ContactItem = ({ items }) => (
 	<span>
@@ -8,8 +9,10 @@ const ContactItem = ({ items }) => (
 				<span>
 					<button
 						type="button"
-						className={`btn btn-light theme--color fa fa-${fa} profile__media${media}`}
-					></button>
+						className={`btn btn-light theme--color profile__media${media}`}
+					>
+						<FontAwesomeIcon icon={fa} />
+					</button>
 				</span>
 				<span className="contact__info--des">{desc}</span>
 			</div>

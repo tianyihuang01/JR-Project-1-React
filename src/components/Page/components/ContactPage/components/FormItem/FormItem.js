@@ -1,5 +1,6 @@
 import React from "react";
 // import ReactDOM from "react-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const FormItem = ({ id, desc, fa, pattern, invalid }) => (
 	<span>
@@ -9,7 +10,7 @@ const FormItem = ({ id, desc, fa, pattern, invalid }) => (
 		<div className="input-group mb-2 mr-sm-2">
 			<div className="input-group-prepend">
 				<div className="input-group-text">
-					<i className={`fa fa-${fa}`}></i>
+					<FontAwesomeIcon icon={fa} />
 				</div>
 			</div>
 			{(() => {
