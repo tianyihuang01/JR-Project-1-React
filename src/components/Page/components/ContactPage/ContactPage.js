@@ -1,3 +1,6 @@
+import React from "react";
+// import ReactDOM from "react-dom";
+
 import GetInTouch from "./components/GetInTouch/GetInTouch";
 import ContactForm from "./components/ContactForm/ContactForm";
 import PageTitle from "../PageTitle/PageTitle";

@@ -1,3 +1,6 @@
+import React from "react";
+// import ReactDOM from "react-dom";
+
 import Page from "../../Page";
 import PageTitle from "../PageTitle/PageTitle";
 import BlogContent from "./components/BlogContent/BlogContent";

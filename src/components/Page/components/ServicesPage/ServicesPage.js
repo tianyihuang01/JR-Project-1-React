@@ -1,3 +1,6 @@
+import React from "react";
+// import ReactDOM from "react-dom";
+
 import Design from "./components/Design/Design";
 import Clients from "./components/Clients/Clients";
 import PageTitle from "../PageTitle/PageTitle";

@@ -1,5 +1,5 @@
-// import React from 'react';
-// import ReactDOM from 'react';
+import React from 'react';
+// import ReactDOM from 'react-dom';
 
 import Header from "../Header/Header.js";
 import HomePage from "../Page/components/HomePage/HomePage";

@@ -1,3 +1,6 @@
+import React from "react";
+// import ReactDOM from "react-dom";
+
 import ProfileTitle from "./components/ProfileTitle/ProfileTitle";
 import ProfileBody from "./components/ProfileBody/ProfileBody";
 import Page from "../../Page";

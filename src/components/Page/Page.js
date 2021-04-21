@@ -1,3 +1,6 @@
+import React from "react";
+// import ReactDOM from "react-dom";
+
 const Page = ({ id, active, children }) => {
 	let className = "card";
 

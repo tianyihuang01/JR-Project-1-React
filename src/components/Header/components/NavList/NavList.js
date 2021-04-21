@@ -1,3 +1,6 @@
+import React from "react";
+// import ReactDOM from "react-dom";
+
 import NavItem from "../NavItem/NavItem";
 import { PAGE } from "../../../../constants";
 
@@ -16,7 +19,7 @@ const ITEM = [
 	},
 	{
 		key: PAGE.CONTACT,
-	}
+	},
 ];
 
 const NavList = ({ currentPage, changePage }) => (
