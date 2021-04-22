@@ -6,7 +6,34 @@ import ReCAPTCHA from "react-google-recaptcha";
 
 import FormItem from "../FormItem/FormItem";
 
-const ContactForm = () => (
+const ContactForm = () => {
+	(function () {
+		"use strict";
+		window.addEventListener(
+			"load",
+			function () {
+				// Fetch all the forms we want to apply custom Bootstrap validation styles to
+				var forms = document.getElementsByClassName("needs-validation");
+				// Loop over them and prevent submission
+				var validation = Array.prototype.filter.call(forms, function (form) {
+					form.addEventListener(
+						"submit",
+						function (event) {
+							if (form.checkValidity() === false) {
+								event.preventDefault();
+								event.stopPropagation();
+							}
+							form.classList.add("was-validated");
+						},
+						false
+					);
+				});
+			},
+			false
+		);
+	})();
+
+	return(
 	<div className="col-lg-6 col-md-6 col-sm-12">
 		<h3 className="resume__title">
 			Contact
@@ -51,7 +78,7 @@ const ContactForm = () => (
 				<span className="btn--text">SEND MESSAGE</span>
 			</button>
 		</form>
-	</div>
-);
+	</div>)
+};
 
 export default ContactForm;
