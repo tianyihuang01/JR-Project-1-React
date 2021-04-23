@@ -8,7 +8,7 @@ import ProfileMedia from "../ProfileMedia/ProfileMedia";
 const ProfileTitle = () => (
 	<div className="card-img-overlay text-white text-center" id="home__overlay">
 		<h2 className="card-title profile__name">Tianyi Huang</h2>
-		<p className="card-text profile__title">Web Designer</p>
+		<p className="card-text profile__title">Full-Stack Web Developer</p>
 		<ProfileMedia foo="profile__media--fb" bar={faFacebookF} />
 		<ProfileMedia foo="profile__media--tw" bar={faTwitter} />
 		<ProfileMedia foo="profile__media--tw" bar={faInstagram} />

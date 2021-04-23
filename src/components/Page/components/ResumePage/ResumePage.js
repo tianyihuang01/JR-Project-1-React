@@ -13,7 +13,7 @@ const ResumePage = ({ active }) => (
 		<div className="card-body">
 			<div className="row profile__content">
 				<EduExp foo="Education" />
-				<EduExp foo="Experience" />
+				<EduExp foo="Experience"/>
 				<Skills foo="Design" />
 				<Skills foo="Coding" />
 			</div>

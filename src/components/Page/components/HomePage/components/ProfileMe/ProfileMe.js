@@ -7,9 +7,9 @@ const ProfileMe = () => (
 			About<span className="theme--color">&nbsp;Me</span>
 		</h3>
 		<p className="profile__content--body">
-			Hello! I’m Tianyi Huang. Lorem ipsum dolor sit amet, consectetur
-			adipiscing elit. Aenean fermentum ullamcorper sem, at placerat dolor
-			volutpat ac. Duis nulla enim, condimentum nec ultricies.
+			Hello! I’m Tianyi Huang. A motivated and enthusiastic web developer with a
+			passion for web development. I am constantly striving to learn new technologies 
+			and look at ways to exceed company goals and experiences.
 		</p>
 	</div>
 );

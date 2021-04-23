@@ -30,8 +30,8 @@ const GetInTouch = () => (
 					fa: faEnvelope,
 					media: "",
 					desc: (
-						<a href="mailto:email@example.com" className="theme--color">
-							info@jiangren.com
+						<a href="mailto:t.huang.061@gmail.com" className="theme--color">
+							t.huang.061@gmail.com
 						</a>
 					),
 				},
@@ -49,7 +49,6 @@ const GetInTouch = () => (
 				},
 			]}
 		/>
-
 	</div>
 );
 

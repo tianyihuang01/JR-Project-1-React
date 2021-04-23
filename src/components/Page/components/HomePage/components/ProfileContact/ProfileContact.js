@@ -4,16 +4,17 @@ import React from "react";
 const ProfileContact = () => (
 	<div className="col-lg-6 col-md-6 col-sm-12">
 		<dl>
+			<br/>
 			<dt>Age</dt>
-			<dd>29</dd>
+			<dd>26</dd>
 			<dt>Residence</dt>
 			<dd>Australia</dd>
 			<dt>Address</dt>
-			<dd>Level 3 / 57 Coronation Drive, Brisbane</dd>
+			<dd>Caulfield East, 3145</dd>
 			<dt>e-mail</dt>
 			<dd>
-				<a href="mailto:email@example.com" className="theme--color">
-					info@jiangren.com
+				<a href="mailto:t.huang.061@gmail.com" className="theme--color">
+					t.huang.061@gmail.com
 				</a>
 			</dd>
 			<dt>Phone</dt>
