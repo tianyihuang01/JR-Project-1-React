@@ -10,8 +10,8 @@ const ServicesPage = ({ active }) => (
 	<Page id="services" active={active}>
 		<PageTitle foo="Services" />
 
-		<div className="card-body profile__content">
-			<h3 className="resume__title">
+		<div className="card-body page__content">
+			<h3 className="block__title">
 				Design
 				<span className="theme--color">&nbsp;Skills</span>
 			</h3>
@@ -42,7 +42,7 @@ const ServicesPage = ({ active }) => (
 				]}
 			/>
 
-			<h3 className="resume__title">Clients</h3>
+			<h3 className="block__title">Clients</h3>
 
 			<Clients
 				items={[

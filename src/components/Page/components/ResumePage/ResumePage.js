@@ -11,9 +11,9 @@ const ResumePage = ({ active }) => (
 		<PageTitle foo="Resume" />
 
 		<div className="card-body">
-			<div className="row profile__content">
+			<div className="row page__content">
 				<EduExp foo="Education" />
-				<EduExp foo="Experience"/>
+				<EduExp foo="Experience" />
 				<Skills foo="Design" />
 				<Skills foo="Coding" />
 			</div>

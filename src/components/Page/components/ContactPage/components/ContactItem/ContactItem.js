@@ -10,7 +10,7 @@ const ContactItem = ({ items }) => (
 				<span>
 					<button
 						type="button"
-						className={`btn btn-light theme--color profile__media${media}`}
+						className={`btn btn-light theme--color page__media${media}`}
 					>
 						<FontAwesomeIcon icon={fa} />
 					</button>

@@ -9,7 +9,7 @@ import Page from "../../Page";
 const ContactPage = ({ active }) => (
 	<Page id="contact" active={active}>
 		<PageTitle foo="Contact" />
-		<div className="card-body profile__content">
+		<div className="card-body page__content">
 			<div className="row">
 				<GetInTouch />
 				<ContactForm />

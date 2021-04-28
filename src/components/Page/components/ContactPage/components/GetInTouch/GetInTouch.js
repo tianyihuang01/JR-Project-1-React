@@ -1,7 +1,12 @@
 import React from "react";
 // import ReactDOM from "react-dom";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMapMarkerAlt, faEnvelope, faPhone, faCheck } from "@fortawesome/free-solid-svg-icons";
+import {
+	faMapMarkerAlt,
+	faEnvelope,
+	faPhone,
+	faCheck,
+} from "@fortawesome/free-solid-svg-icons";
 
 import GoogleMap from "../GoogleMap/GoogleMap";
 import ContactItem from "../ContactItem/ContactItem";
@@ -10,7 +15,7 @@ import "./GetInTouch.scss";
 
 const GetInTouch = () => (
 	<div className="col-lg-6 col-md-6 col-sm-12">
-		<h3 className="resume__title">
+		<h3 className="block__title">
 			Get in
 			<span className="theme--color">&nbsp;Touch</span>
 		</h3>

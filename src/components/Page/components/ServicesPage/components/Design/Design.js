@@ -11,7 +11,7 @@ const Design = ({ items }) => (
 						<img className="servicesItem__img" src={src} />
 					</div>
 					<h4 className="servicesItem__title">{title}</h4>
-					<div className="servicesItem__desc">{desc}</div>
+					<div className="page__body--grey">{desc}</div>
 				</div>
 			</div>
 		))}

@@ -20,7 +20,7 @@ const BlogContent = () => (
 				<span className="theme--color month">Nov</span>
 			</div>
 			<div className="blog__card--body text-center">
-				<p className="servicesItem__desc">Travel</p>
+				<p className="page__body--grey">Travel</p>
 				<p>
 					<b>Bootstrap is the most popular framework</b>
 				</p>

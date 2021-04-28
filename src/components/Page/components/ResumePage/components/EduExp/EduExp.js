@@ -7,7 +7,7 @@ import "./EduExp.scss";
 
 const EduExp = ({ foo }) => (
 	<div className="col-lg-6 col-md-6 col-sm-12">
-		<h3 className="resume__title">{foo}</h3>
+		<h3 className="block__title">{foo}</h3>
 		<div className="resume__card--outer">
 			{(() => {
 				switch (foo) {
@@ -56,7 +56,7 @@ const EduExp = ({ foo }) => (
 									},
 									{
 										key: "4",
-										title: "Web App - Customer Management System",
+										title: "Web App - CRM",
 										year: "2020",
 										org: "Web developer",
 										body:

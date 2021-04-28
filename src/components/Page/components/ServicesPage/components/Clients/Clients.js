@@ -1,6 +1,8 @@
 import React from "react";
 // import ReactDOM from "react-dom";
 
+import "./Clients.scss";
+
 const Clients = ({ items }) => (
 	<div className="row">
 		{items.map(({ key, src }) => (

@@ -6,7 +6,7 @@ import ProfileContact from "../ProfileContact/ProfileContact";
 
 const ProfileBody = () => (
 	<div className="card-body">
-		<div className="row profile__content">
+		<div className="row page__content">
 			<ProfileMe />
 			<ProfileContact />
 		</div>

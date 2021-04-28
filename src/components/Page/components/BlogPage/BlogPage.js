@@ -9,7 +9,7 @@ const BlogPage = ({ active }) => (
 	<Page id="blog" active={active}>
 		<PageTitle foo="Blog" />
 
-		<div className="card-body profile__content">
+		<div className="card-body page__content">
 			<div className="row">
 				<BlogContent />
 				<BlogContent />

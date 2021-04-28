@@ -5,7 +5,7 @@ import SkillsBar from "../SkillsBar/SkillsBar";
 
 const Skills = ({ foo }) => (
 	<div className="col-lg-6 col-md-6 col-sm-12">
-		<h3 className="resume__title">
+		<h3 className="block__title">
 			{foo}
 			<span className="theme--color">&nbsp;Skills</span>
 		</h3>
