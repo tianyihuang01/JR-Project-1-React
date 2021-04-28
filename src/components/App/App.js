@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 // import ReactDOM from 'react-dom';
 
 import Header from "../Header/Header.js";
@@ -7,15 +7,16 @@ import ResumePage from "../Page/components/ResumePage/ResumePage";
 import ServicesPage from "../Page/components/ServicesPage/ServicesPage";
 import BlogPage from "../Page/components/BlogPage/BlogPage";
 import ContactPage from "../Page/components/ContactPage/ContactPage";
-import Footer from "../Footer/footer";
+import Footer from "../Footer/Footer";
 import { PAGE } from "../../constants";
+import "./App.scss";
 
 class App extends React.Component {
 	constructor(props) {
 		super(props);
 
 		this.state = {
-			currentPage: PAGE.RESUME,
+			currentPage: PAGE.HOME,
 		};
 
 		this.changePage = this.changePage.bind(this);
@@ -33,7 +34,10 @@ class App extends React.Component {
 		return (
 			<>
 				<header>
-					<Header currentPage={currentPage} changePage={this.changePage}></Header>
+					<Header
+						currentPage={currentPage}
+						changePage={this.changePage}
+					></Header>
 				</header>
 				<main>
 					<HomePage active={currentPage == PAGE.HOME} />

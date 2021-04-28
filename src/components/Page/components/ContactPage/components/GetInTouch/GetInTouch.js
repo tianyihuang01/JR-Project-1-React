@@ -6,6 +6,8 @@ import { faMapMarkerAlt, faEnvelope, faPhone, faCheck } from "@fortawesome/
 import GoogleMap from "../GoogleMap/GoogleMap";
 import ContactItem from "../ContactItem/ContactItem";
 
+import "./GetInTouch.scss";
+
 const GetInTouch = () => (
 	<div className="col-lg-6 col-md-6 col-sm-12">
 		<h3 className="resume__title">

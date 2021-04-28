@@ -1,0 +1,85 @@
+@import "../../sass/style.scss";
+// $primarycolor: rgba(11, 58, 102, 0.75); //#2eca7f;
+
+.theme {
+	&--color {
+		color: $primarycolor;
+	}
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	font-family: "Roboto", sans-serif;
+	background-color: #f5f5f5;
+	margin-bottom: 25px;
+	padding-top: 60px;
+}
+
+.card {
+	display: none; //if not active, hide the card.
+
+	width: 90%;
+	max-width: 1032px * 0.9;
+
+	// center aligned
+	// https://stackoverflow.com/questions/39031224/how-to-center-cards-in-bootstrap-4
+	margin: 0 auto; /* Added */
+	float: none; /* Added */
+	margin-bottom: 10px; /* Added */
+
+	// border-color: $primarycolor; //border color
+	border-radius: 15px; //radius
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); //shadow
+
+	&-img-top {
+		background-color: $primarycolor;
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;
+	}
+
+	&--active {
+		display: block;
+		position: relative;
+		visibility: visible;
+		opacity: 1;
+	}
+}
+
+.profile {
+	&__name {
+		font-size: 3rem;
+		font-weight: 500;
+	}
+
+	&__media {
+		border-radius: 50%;
+		width: 32px;
+		height: 32px;
+		padding-left: 6px;
+		padding-top: 4px;
+		&--fb {
+			@extend .profile__media;
+			padding-left: 10px;
+		}
+		&--tw {
+			@extend .profile__media;
+			padding-left: 8px;
+		}
+	}
+	&__content {
+		padding: 20px 50px 20px 50px;
+	}
+}
+
+.resume {
+	&__title {
+		display: block;
+		font-size: 1.17em;
+		margin-block-start: 1em;
+		margin-block-end: 1em;
+		margin-inline-start: 0px;
+		margin-inline-end: 0px;
+		font-weight: bold;
+	}
+}

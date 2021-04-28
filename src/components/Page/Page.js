@@ -1,5 +1,6 @@
 import React from "react";
 // import ReactDOM from "react-dom";
+// import "./Page.scss";
 
 const Page = ({ id, active, children }) => {
 	let className = "card";

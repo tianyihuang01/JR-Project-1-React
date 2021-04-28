@@ -1,0 +1,13 @@
+@import "../../../../../../sass/style.scss";
+
+.btn{
+    &-custom{
+        color: #fff;
+        background-color: $primarycolor;
+        border-color: $primarycolor;
+        margin: 25px 0;
+    }
+    &--text{
+        font-size: 15px;
+    }
+}

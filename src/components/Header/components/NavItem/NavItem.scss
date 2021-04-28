@@ -1,0 +1,23 @@
+@import "../../../../sass/style.scss";
+
+.nav{
+    &-link{
+        transition: 1s;
+        &::after{
+            content: "";
+            border: solid#f8f9fa 0.5px;
+            width: 24px;
+            margin: auto;
+            // margin-top: 4px;
+            display: block;
+        }
+        &:hover::after{
+            border: solid $primarycolor 0.5px;
+            transition: 1s;
+        }
+    }
+    &--active::after{
+        border: solid $primarycolor 0.5px;
+
+    }
+}

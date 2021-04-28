@@ -1,6 +1,7 @@
 import React from "react";
 // import ReactDOM from "react-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "./FormItems.scss";
 
 const FormItem = ({ id, desc, fa, pattern, invalid }) => (
 	<span>

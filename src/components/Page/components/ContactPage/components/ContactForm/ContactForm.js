@@ -5,6 +5,7 @@ import {faUser, faEnvelope, faComment} from "@fortawesome/free-solid-svg-icons"
 import ReCAPTCHA from "react-google-recaptcha";
 
 import FormItem from "../FormItem/FormItem";
+import "./ContactForm.scss";
 
 const ContactForm = () => {
 	(function () {

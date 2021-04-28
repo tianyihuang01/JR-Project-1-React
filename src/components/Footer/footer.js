@@ -1,5 +1,6 @@
 import React from "react";
 // import ReactDOM from "react-dom";
+import "./Footer.scss"
 
 const Footer = () => (
 	<footer className="footer fixed-bottom">

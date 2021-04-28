@@ -1,5 +1,6 @@
 import React from "react";
 // import ReactDOM from "react-dom";
+import "./NavItem.scss";
 
 const NavItem = ({ active, foo, pageName, onClick, changePage, children }) => {
 	let className = "nav-link";

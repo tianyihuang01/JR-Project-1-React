@@ -5,6 +5,8 @@ import ProfileTitle from "./components/ProfileTitle/ProfileTitle";
 import ProfileBody from "./components/ProfileBody/ProfileBody";
 import Page from "../../Page";
 
+import "./HomePage.scss";
+
 const HomePage = ({ active }) => (
 	<Page id="home" active={active}>
 		<img

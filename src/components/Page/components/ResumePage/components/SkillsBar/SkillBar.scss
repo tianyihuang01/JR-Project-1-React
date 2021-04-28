@@ -1,0 +1,36 @@
+@import "../../../../../../sass/style.scss";
+
+.resume__skill {
+	margin: 8px 0;
+	font-size: 0.8rem;
+	font-weight: bold;
+}
+
+.bar {
+	width: 100%;
+	height: 12px;
+	background: lightgray;
+	position: relative;
+}
+
+.skill {
+	position: absolute;
+	height: 100%;
+	background: $primarycolor;
+
+	&--1 {
+		width: 85%;
+	}
+	&--2 {
+		width: 75%;
+	}
+	&--3 {
+		width: 65%;
+	}
+	&--4 {
+		width: 85%;
+	}
+	&--5 {
+		width: 85%;
+	}
+}

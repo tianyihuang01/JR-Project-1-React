@@ -1,6 +1,8 @@
 import React from "react";
 // import ReactDOM from "react-dom";
 
+import "./BlogContent.scss";
+
 const BlogContent = () => (
 	<div className="col-lg-6 col-md-12 col-sm-12">
 		<div className="blog__card">

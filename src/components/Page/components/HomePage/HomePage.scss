@@ -1,0 +1,27 @@
+.profile__avatar {
+	position: absolute;
+	left: 7%;
+	top: 8%;
+	width: 250px;
+	border: solid white 5px; //add white border
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); //shadow
+	transition: 1s;
+
+	&:hover {
+		position: absolute;
+		left: 7%;
+		top: 6%;
+	}
+}
+
+#home {
+	// height: 500px;//for home page
+	&__top {
+		height: 280px;
+	}
+	&__overlay {
+		position: absolute;
+		left: 33%;
+		top: 10%;
+	}
+}

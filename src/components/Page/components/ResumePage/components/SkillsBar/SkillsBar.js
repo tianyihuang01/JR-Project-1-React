@@ -1,5 +1,6 @@
 import React from "react";
 // import ReactDOM from "react-dom";
+import "./SkillBar.scss";
 
 const SkillsBar = ({ items }) => (
 	<span>

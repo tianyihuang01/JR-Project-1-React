@@ -1,6 +1,8 @@
 import React from "react";
 // import ReactDOM from "react-dom";
 
+import "./ProfileContact.scss";
+
 const ProfileContact = () => (
 	<div className="col-lg-6 col-md-6 col-sm-12">
 		<dl>
@@ -11,7 +13,7 @@ const ProfileContact = () => (
 			<dd>Australia</dd>
 			<dt>Address</dt>
 			<dd>Caulfield East, 3145</dd>
-			<dt>e-mail</dt>
+			<dt>E-mail</dt>
 			<dd>
 				<a href="mailto:t.huang.061@gmail.com" className="theme--color">
 					t.huang.061@gmail.com

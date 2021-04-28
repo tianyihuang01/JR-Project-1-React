@@ -1,9 +1,15 @@
 import React from "react";
 // import ReactDOM from "react-dom";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebookF, faTwitter,  faInstagram} from "@fortawesome/free-brands-svg-icons";
+import {
+	faFacebookF,
+	faTwitter,
+	faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
 
 import ProfileMedia from "../ProfileMedia/ProfileMedia";
+
+import "./ProfileTitle.scss";
 
 const ProfileTitle = () => (
 	<div className="card-img-overlay text-white text-center" id="home__overlay">
