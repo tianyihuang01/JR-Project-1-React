@@ -7,7 +7,7 @@ const PageTitle = ({ foo }) => (
 		<img
 			className="card-img-top"
 			id="card__top"
-			src="assets/images/main_bg.png"
+			src="../public/assets/images/main_bg.png"
 		/>
 		<div className="card-img-overlay text-white text-center" id="card__overlay">
 			<h2 className="card-title page__name">{foo}</h2>

@@ -9,7 +9,7 @@ const BlogContent = () => (
 			<div className="blog__card--container">
 				<img
 					className="blog__card--img"
-					src="assets/images/blog/blog_post_1.jpg"
+					src="../public/assets/images/blog/blog_post_1.jpg"
 				/>
 				<div className="blog__card--middle">
 					<div>Tianyi Huang</div>

@@ -19,25 +19,22 @@ const ServicesPage = ({ active }) => (
 			<Design
 				items={[
 					{
-						key: "html5",
-						src: "assets/images/html5.png",
-						title: "HTML5",
-						desc:
-							"Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser.",
+						key: 'html5',
+						src: '../public/assets/images/html5.png',
+						title: 'HTML5',
+						desc: 'Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser.',
 					},
 					{
-						key: "css3",
-						src: "assets/images/css3.png",
-						title: "CSS3",
-						desc:
-							"Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML.",
+						key: 'css3',
+						src: '../public/assets/images/css3.png',
+						title: 'CSS3',
+						desc: 'Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML.',
 					},
 					{
-						key: "JS",
-						src: "assets/images/js.png",
-						title: "JavaScript",
-						desc:
-							"JavaScript often abbreviated as JS, is a programming language that conforms to the ECMAScript specification.",
+						key: 'JS',
+						src: '../public/assets/images/js.png',
+						title: 'JavaScript',
+						desc: 'JavaScript often abbreviated as JS, is a programming language that conforms to the ECMAScript specification.',
 					},
 				]}
 			/>
@@ -47,16 +44,16 @@ const ServicesPage = ({ active }) => (
 			<Clients
 				items={[
 					{
-						key: "rea",
-						src: "assets/images/rea.png",
+						key: 'rea',
+						src: '../public/assets/images/rea.png',
 					},
 					{
-						key: "seek",
-						src: "assets/images/seek.png",
+						key: 'seek',
+						src: '../public/assets/images/seek.png',
 					},
 					{
-						key: "rea2",
-						src: "assets/images/rea.png",
+						key: 'rea2',
+						src: '../public/assets/images/rea.png',
 					},
 				]}
 			/>

@@ -5,7 +5,7 @@ const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   mode: "development",
-  entry: "./js/index.js",
+  entry: "./src/js/index.js",
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
@@ -49,12 +49,12 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-        template: './index.html',
+        template: './public/index.html',
     }),
     new CleanWebpackPlugin(),
     new CopyPlugin({
         patterns:[
-            {from:'./assets/images',to:'./assets/images'} 
+            {from:'./public/assets/images',to:'./public/assets/images'} 
         ]
     }),
   ],

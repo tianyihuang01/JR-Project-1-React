@@ -12,9 +12,9 @@ const HomePage = ({ active }) => (
 		<img
 			className="card-img-top"
 			id="home__top"
-			src="assets/images/main_bg.png"
+			src="../public/assets/images/main_bg.png"
 		/>
-		<img className="profile__avatar" src="assets/images/photo.png" />
+		<img className="profile__avatar" src="../public/assets/images/photo.png" />
 		<ProfileTitle />
 		<ProfileBody />
 	</Page>
