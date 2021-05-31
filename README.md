@@ -15,6 +15,6 @@ The Technology stack used:
 
 1. Open terminal, ~~use `cd` command to go to the "src" directory~~.
 2. Type `npm install` to install all packages through npm.
-3. Type `npm run build` to build the app in webpack.
+3. ~~Type `npm run build` to build the app in webpack~~.
 4. Type `npm run start:dev` to start the app in webpack-dev-server.
 5. Go to `localhost:8080` to browse the app.
